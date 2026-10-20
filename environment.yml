@@ -3,6 +3,9 @@ channels:
   - defaults
 dependencies:
   - pip
+  - python=3.10
+  - ipykernel
+  - jupyter_client
   - ipywidgets
   - hyperopt
   - kaggle
@@ -13,7 +16,7 @@ dependencies:
   - python
   - py-xgboost
   - jupyterlab
-  - nb_conda
+ # - nb_conda
   - bokeh
   - pandas
   - holoviews
